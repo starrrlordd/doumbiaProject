@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 54px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p { 
+    font-size: 16px;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+.logo {
+    height: 67px;
+}
+
+#header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}   
+
+#navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    color: black;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url("Images/malemodel2.jpg");
+    height: 92vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 70% right 50%;
+    position: relative;
+    /* margin: 10px; */
+}
+
+.hero-text {
+    color: white;
+    position: absolute;
+    top: 41%;
+    left: 60%;
+    text-align: center;
+}
+
+#hero h2 {
+    color: white;
+}
+
+.hero-text a {
+    text-decoration: none;
+}
+
+#hero a button {
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    border: 2px;
+    cursor: pointer;
+    line-height: 28px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+#hero a button:hover {
+    text-decoration: underline;
+    transition: 0.4s ease;
+}
+
+#hero2 {
+    height: 90vh;
+    position: relative;
+}
+
+#herovideo2 {
+    filter: brightness(50%);
+    /* position: relative; */
+    /* top: 0;
+    bottom: 0; */
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    /* z-index: -1;
+    overflow: hidden; */
+}
+
+.video-text {
+    display: grid;
+    position: absolute;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 40%;
+}
+
+/* .video-text a {
+    color: black;
+} */
+
+.video-text a button {
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    border: 2px;
+    cursor: pointer;
+    line-height: 28px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.video-text a button:hover {
+    text-decoration: underline;
+    transition: 0.4s ease;
+}
+
+
+/* #tshirts {
+    background-image: url(Images/modelShirt.jpg);
+    height: 92vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+} */
+
+#banners-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+#banner-1 {
+    background-image: url(Images/modelShirt2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 50%;
+}
+
+
+
+#banner-2 {
+    background-image: url(Images/modelJeans.jpg);
+    height: 90vh;
+    width: 50%
+}
